@@ -1,0 +1,78 @@
+
+.storybook-button {
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 4px;
+  font-style: normal;
+}
+.storybook-button--primary {
+  color: white;
+  background: #0dbd95;
+}
+.storybook-button--secondary {
+  font-size: 18px;
+  text-align: center;
+  color: #0dbd95;
+  background: #ffffff;
+  border: #0dbd95 1px solid;
+}
+.storybook-button--tertiary {
+  font-size: 18px;
+  color: #2b2b35;
+  background: #ffffff;
+}
+.storybook-button--upgrade {
+  font-size: 18px;
+  color: #ffffff;
+  background: #0082ff;
+}
+.storybook-button--warning {
+  font-size: 18px;
+  color: #ffffff;
+  background: #ee5c33;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+.storybook-button--disable {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+.storybook-button--icon {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+/* hover */
+.storybook-button--primary.storybook-button--hover:hover {
+  background-color: #0aa481;
+}
+.storybook-button--secondary.storybook-button--hover:hover {
+  background-color: #E7F8F4;
+}
+.storybook-button--tertiary.storybook-button--hover:hover {
+  background-color: #EDEDED;
+}
+.storybook-button--warning.storybook-button--hover:hover {
+  background-color: #D74B23;
+}
+.storybook-button--upgrade.storybook-button--hover:hover {
+  background-color: #006CD5;
+}
+.storybook-button--icon.storybook-button--hover:hover {
+  background-color: #EDEDED;
+}
+.m-r-10{
+  margin:10px;
+}
